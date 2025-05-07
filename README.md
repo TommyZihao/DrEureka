@@ -56,7 +56,8 @@ The following instructions will install everything under one Conda environment. 
         ```
 4. Install DrEureka:
     ```
-    cd dr_eureka
+    git clone https://github.com/eureka-research/DrEureka.git
+    cd DrEureka
     pip install -e .
     ```
 5. Install the forward locomotion and globe walking environments:
